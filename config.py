@@ -4124,3 +4124,523 @@ while True:
             else:
                 print("[P90] Invalid Option")
                 time.sleep(2)
+            
+    elif weapon_id == 32: #ump45
+        while True:
+            cls()
+            print("[UMP45] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[UMP45] Aim Key: "))
+                ump45[0]['aim_key'] = aim_key
+                print("[UMP45] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[UMP45] Aim Rotation: "))
+                ump45[0]['aim_rotation'] = aim_rotation
+                print("[UMP45] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[UMP45] Sticky Aim: "))
+                ump45[0]['aim_stick'] = aim_stick
+                print("[UMP45] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[UMP45] Aim FOV: "))
+                ump45[0]['aim_fov'] = aim_fov
+                print("[UMP45] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[UMP45] Bone Selection: "))
+                ump45[0]['bone_selection'] = bone_selection
+                print("[UMP45] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[UMP45] Bone 3: "))
+                ump45[0]['bone_3'] = bone_3
+                print("[UMP45] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[UMP45] Bone 2: "))
+                ump45[0]['bone_2'] = bone_2
+                print("[UMP45] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[UMP45] Bone 1: "))
+                ump45[0]['bone_1'] = bone_1
+                print("[UMP45] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[UMP45] Bone 0: "))
+                ump45[0]['bone_0'] = bone_0
+                print("[UMP45] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[UMP45] Smooth: "))
+                ump45[0]['smooth'] = smooth
+                print("[UMP45] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[UMP45] Aim Delay: "))
+                ump45[0]['aim_delay'] = aim_delay
+                print("[UMP45] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[UMP45] Aim Time: "))
+                ump45[0]['aim_time'] = aim_time
+                print("[UMP45] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[UMP45] Aim Through Walls: "))
+                ump45[0]['aim_thru_walls'] = aim_thru_walls
+                print("[UMP45] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[UMP45] Trigger Key: "))
+                ump45[0]['trigger_key'] = trigger_key
+                print("[UMP45] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[UMP45] Trigger Delay: "))
+                ump45[0]['trigger_delay'] = trigger_delay
+                print("[UMP45] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[UMP45] Trigger Pause: "))
+                ump45[0]['trigger_pause'] = trigger_pause
+                print("[UMP45] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[UMP45] Trigger After Shot: "))
+                ump45[0]['trigger_after_shot'] = trigger_after_shot
+                print("[UMP45] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[UMP45] Horizontal RCS: "))
+                ump45[0]['horizontal_rcs'] = horizontal_rcs
+                print("[UMP45] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[UMP45] Vertical RCS: "))
+                ump45[0]['vertical_rcs'] = vertical_rcs
+                print("[UMP45] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[UMP45] Invalid Option")
+                time.sleep(2)
+    
+    elif weapon_id == 33: #m249
+        while True:
+            cls()
+            print("[M249] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[M249] Aim Key: "))
+                m249[0]['aim_key'] = aim_key
+                print("[M249] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[M249] Aim Rotation: "))
+                m249[0]['aim_rotation'] = aim_rotation
+                print("[M249] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[M249] Sticky Aim: "))
+                m249[0]['aim_stick'] = aim_stick
+                print("[M249] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[M249] Aim FOV: "))
+                m249[0]['aim_fov'] = aim_fov
+                print("[M249] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[M249] Bone Selection: "))
+                m249[0]['bone_selection'] = bone_selection
+                print("[M249] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[M249] Bone 3: "))
+                m249[0]['bone_3'] = bone_3
+                print("[M249] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[M249] Bone 2: "))
+                m249[0]['bone_2'] = bone_2
+                print("[M249] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[M249] Bone 1: "))
+                m249[0]['bone_1'] = bone_1
+                print("[M249] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[M249] Bone 0: "))
+                m249[0]['bone_0'] = bone_0
+                print("[M249] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[M249] Smooth: "))
+                m249[0]['smooth'] = smooth
+                print("[M249] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[M249] Aim Delay: "))
+                m249[0]['aim_delay'] = aim_delay
+                print("[M249] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[M249] Aim Time: "))
+                m249[0]['aim_time'] = aim_time
+                print("[M249] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[M249] Aim Through Walls: "))
+                m249[0]['aim_thru_walls'] = aim_thru_walls
+                print("[M249] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[M249] Trigger Key: "))
+                m249[0]['trigger_key'] = trigger_key
+                print("[M249] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[M249] Trigger Delay: "))
+                m249[0]['trigger_delay'] = trigger_delay
+                print("[M249] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[M249] Trigger Pause: "))
+                m249[0]['trigger_pause'] = trigger_pause
+                print("[M249] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[M249] Trigger After Shot: "))
+                m249[0]['trigger_after_shot'] = trigger_after_shot
+                print("[M249] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[M249] Horizontal RCS: "))
+                m249[0]['horizontal_rcs'] = horizontal_rcs
+                print("[M249] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[M249] Vertical RCS: "))
+                m249[0]['vertical_rcs'] = vertical_rcs
+                print("[M249] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[M249] Invalid Option")
+                time.sleep(2)
+
+    elif weapon_id == 34: #negev
+        while True:
+            cls()
+            print("[NEGEV] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[NEGEV] Aim Key: "))
+                negev[0]['aim_key'] = aim_key
+                print("[NEGEV] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[NEGEV] Aim Rotation: "))
+                negev[0]['aim_rotation'] = aim_rotation
+                print("[NEGEV] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[NEGEV] Sticky Aim: "))
+                negev[0]['aim_stick'] = aim_stick
+                print("[NEGEV] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[NEGEV] Aim FOV: "))
+                negev[0]['aim_fov'] = aim_fov
+                print("[NEGEV] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[NEGEV] Bone Selection: "))
+                negev[0]['bone_selection'] = bone_selection
+                print("[NEGEV] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[NEGEV] Bone 3: "))
+                negev[0]['bone_3'] = bone_3
+                print("[NEGEV] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[NEGEV] Bone 2: "))
+                negev[0]['bone_2'] = bone_2
+                print("[NEGEV] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[NEGEV] Bone 1: "))
+                negev[0]['bone_1'] = bone_1
+                print("[NEGEV] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[NEGEV] Bone 0: "))
+                negev[0]['bone_0'] = bone_0
+                print("[NEGEV] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[NEGEV] Smooth: "))
+                negev[0]['smooth'] = smooth
+                print("[NEGEV] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[NEGEV] Aim Delay: "))
+                negev[0]['aim_delay'] = aim_delay
+                print("[NEGEV] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[NEGEV] Aim Time: "))
+                negev[0]['aim_time'] = aim_time
+                print("[NEGEV] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[NEGEV] Aim Through Walls: "))
+                negev[0]['aim_thru_walls'] = aim_thru_walls
+                print("[NEGEV] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[NEGEV] Trigger Key: "))
+                negev[0]['trigger_key'] = trigger_key
+                print("[NEGEV] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[NEGEV] Trigger Delay: "))
+                negev[0]['trigger_delay'] = trigger_delay
+                print("[NEGEV] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[NEGEV] Trigger Pause: "))
+                negev[0]['trigger_pause'] = trigger_pause
+                print("[NEGEV] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[NEGEV] Trigger After Shot: "))
+                negev[0]['trigger_after_shot'] = trigger_after_shot
+                print("[NEGEV] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[NEGEV] Horizontal RCS: "))
+                negev[0]['horizontal_rcs'] = horizontal_rcs
+                print("[NEGEV] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[NEGEV] Vertical RCS: "))
+                negev[0]['vertical_rcs'] = vertical_rcs
+                print("[NEGEV] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[NEGEV] Invalid Option")
+                time.sleep(2)
+
+    elif weapon_id == 35: #knives
+        while True:
+            cls()
+            print("[KNIVES] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[KNIVES] Aim Key: "))
+                knife[0]['aim_key'] = aim_key
+                print("[KNIVES] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[KNIVES] Aim Rotation: "))
+                knife[0]['aim_rotation'] = aim_rotation
+                print("[KNIVES] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[KNIVES] Sticky Aim: "))
+                knife[0]['aim_stick'] = aim_stick
+                print("[KNIVES] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[KNIVES] Aim FOV: "))
+                knife[0]['aim_fov'] = aim_fov
+                print("[KNIVES] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[KNIVES] Bone Selection: "))
+                knife[0]['bone_selection'] = bone_selection
+                print("[KNIVES] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[KNIVES] Bone 3: "))
+                knife[0]['bone_3'] = bone_3
+                print("[KNIVES] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[KNIVES] Bone 2: "))
+                knife[0]['bone_2'] = bone_2
+                print("[KNIVES] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[KNIVES] Bone 1: "))
+                knife[0]['bone_1'] = bone_1
+                print("[KNIVES] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[KNIVES] Bone 0: "))
+                knife[0]['bone_0'] = bone_0
+                print("[KNIVES] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[KNIVES] Smooth: "))
+                knife[0]['smooth'] = smooth
+                print("[KNIVES] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[KNIVES] Aim Delay: "))
+                knife[0]['aim_delay'] = aim_delay
+                print("[KNIVES] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[KNIVES] Aim Time: "))
+                knife[0]['aim_time'] = aim_time
+                print("[KNIVES] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[KNIVES] Aim Through Walls: "))
+                knife[0]['aim_thru_walls'] = aim_thru_walls
+                print("[KNIVES] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[KNIVES] Trigger Key: "))
+                knife[0]['trigger_key'] = trigger_key
+                print("[KNIVES] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[KNIVES] Trigger Delay: "))
+                knife[0]['trigger_delay'] = trigger_delay
+                print("[KNIVES] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[KNIVES] Trigger Pause: "))
+                knife[0]['trigger_pause'] = trigger_pause
+                print("[KNIVES] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[KNIVES] Trigger After Shot: "))
+                knife[0]['trigger_after_shot'] = trigger_after_shot
+                print("[KNIVES] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[KNIVES] Horizontal RCS: "))
+                knife[0]['horizontal_rcs'] = horizontal_rcs
+                print("[KNIVES] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[KNIVES] Vertical RCS: "))
+                knife[0]['vertical_rcs'] = vertical_rcs
+                print("[KNIVES] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[KNIVES] Invalid Option")
+                time.sleep(2)
