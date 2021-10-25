@@ -1914,3 +1914,133 @@ while True:
             else:
                 print("[GALIL] Invalid Option")
                 time.sleep(2)
+    
+    elif weapon_id == 15: #m4a1-s
+        while True:
+            cls()
+            print("[M4A1-S] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[M4A1-S] Aim Key: "))
+                m4a1silencer[0]['aim_key'] = aim_key
+                print("[M4A1-S] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[M4A1-S] Aim Rotation: "))
+                m4a1silencer[0]['aim_rotation'] = aim_rotation
+                print("[M4A1-S] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[M4A1-S] Sticky Aim: "))
+                m4a1silencer[0]['aim_stick'] = aim_stick
+                print("[M4A1-S] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[M4A1-S] Aim FOV: "))
+                m4a1silencer[0]['aim_fov'] = aim_fov
+                print("[M4A1-S] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[M4A1-S] Bone Selection: "))
+                m4a1silencer[0]['bone_selection'] = bone_selection
+                print("[M4A1-S] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[M4A1-S] Bone 3: "))
+                m4a1silencer[0]['bone_3'] = bone_3
+                print("[M4A1-S] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[M4A1-S] Bone 2: "))
+                m4a1silencer[0]['bone_2'] = bone_2
+                print("[M4A1-S] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[M4A1-S] Bone 1: "))
+                m4a1silencer[0]['bone_1'] = bone_1
+                print("[M4A1-S] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[M4A1-S] Bone 0: "))
+                m4a1silencer[0]['bone_0'] = bone_0
+                print("[M4A1-S] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[M4A1-S] Smooth: "))
+                m4a1silencer[0]['smooth'] = smooth
+                print("[M4A1-S] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[M4A1-S] Aim Delay: "))
+                m4a1silencer[0]['aim_delay'] = aim_delay
+                print("[M4A1-S] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[M4A1-S] Aim Time: "))
+                m4a1silencer[0]['aim_time'] = aim_time
+                print("[M4A1-S] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[M4A1-S] Aim Through Walls: "))
+                m4a1silencer[0]['aim_thru_walls'] = aim_thru_walls
+                print("[M4A1-S] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[M4A1-S] Trigger Key: "))
+                m4a1silencer[0]['trigger_key'] = trigger_key
+                print("[M4A1-S] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[M4A1-S] Trigger Delay: "))
+                m4a1silencer[0]['trigger_delay'] = trigger_delay
+                print("[M4A1-S] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[M4A1-S] Trigger Pause: "))
+                m4a1silencer[0]['trigger_pause'] = trigger_pause
+                print("[M4A1-S] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[M4A1-S] Trigger After Shot: "))
+                m4a1silencer[0]['trigger_after_shot'] = trigger_after_shot
+                print("[M4A1-S] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[M4A1-S] Horizontal RCS: "))
+                m4a1silencer[0]['horizontal_rcs'] = horizontal_rcs
+                print("[M4A1-S] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[M4A1-S] Vertical RCS: "))
+                m4a1silencer[0]['vertical_rcs'] = vertical_rcs
+                print("[M4A1-S] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[M4A1-S] Invalid Option")
+                time.sleep(2)
