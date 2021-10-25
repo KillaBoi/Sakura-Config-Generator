@@ -1004,3 +1004,133 @@ while True:
             else:
                 print("[P250] Invalid Option")
                 time.sleep(2)
+
+    elif weapon_id == 8: #usps
+        while True:
+            cls()
+            print("[USP-S] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[USP-S] Aim Key: "))
+                galil[0]['aim_key'] = aim_key
+                print("[USP-S] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[USP-S] Aim Rotation: "))
+                galil[0]['aim_rotation'] = aim_rotation
+                print("[USP-S] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[USP-S] Sticky Aim: "))
+                galil[0]['aim_stick'] = aim_stick
+                print("[USP-S] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[USP-S] Aim FOV: "))
+                galil[0]['aim_fov'] = aim_fov
+                print("[USP-S] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[USP-S] Bone Selection: "))
+                galil[0]['bone_selection'] = bone_selection
+                print("[USP-S] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[USP-S] Bone 3: "))
+                galil[0]['bone_3'] = bone_3
+                print("[USP-S] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[USP-S] Bone 2: "))
+                galil[0]['bone_2'] = bone_2
+                print("[USP-S] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[USP-S] Bone 1: "))
+                galil[0]['bone_1'] = bone_1
+                print("[USP-S] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[USP-S] Bone 0: "))
+                galil[0]['bone_0'] = bone_0
+                print("[USP-S] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[USP-S] Smooth: "))
+                galil[0]['smooth'] = smooth
+                print("[USP-S] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[USP-S] Aim Delay: "))
+                galil[0]['aim_delay'] = aim_delay
+                print("[USP-S] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[USP-S] Aim Time: "))
+                galil[0]['aim_time'] = aim_time
+                print("[USP-S] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[USP-S] Aim Through Walls: "))
+                galil[0]['aim_thru_walls'] = aim_thru_walls
+                print("[USP-S] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[USP-S] Trigger Key: "))
+                galil[0]['trigger_key'] = trigger_key
+                print("[USP-S] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[USP-S] Trigger Delay: "))
+                galil[0]['trigger_delay'] = trigger_delay
+                print("[USP-S] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[USP-S] Trigger Pause: "))
+                galil[0]['trigger_pause'] = trigger_pause
+                print("[USP-S] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[USP-S] Trigger After Shot: "))
+                galil[0]['trigger_after_shot'] = trigger_after_shot
+                print("[USP-S] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[USP-S] Horizontal RCS: "))
+                galil[0]['horizontal_rcs'] = horizontal_rcs
+                print("[USP-S] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[USP-S] Vertical RCS: "))
+                galil[0]['vertical_rcs'] = vertical_rcs
+                print("[USP-S] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[USP-S] Invalid Option")
+                time.sleep(2)
