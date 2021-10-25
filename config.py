@@ -2434,3 +2434,393 @@ while True:
             else:
                 print("[AWP] Invalid Option")
                 time.sleep(2)
+    
+    elif weapon_id == 19: #g3sg1
+        while True:
+            cls()
+            print("[G3SG1] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[G3SG1] Aim Key: "))
+                g3sg1[0]['aim_key'] = aim_key
+                print("[G3SG1] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[G3SG1] Aim Rotation: "))
+                g3sg1[0]['aim_rotation'] = aim_rotation
+                print("[G3SG1] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[G3SG1] Sticky Aim: "))
+                g3sg1[0]['aim_stick'] = aim_stick
+                print("[G3SG1] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[G3SG1] Aim FOV: "))
+                g3sg1[0]['aim_fov'] = aim_fov
+                print("[G3SG1] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[G3SG1] Bone Selection: "))
+                g3sg1[0]['bone_selection'] = bone_selection
+                print("[G3SG1] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[G3SG1] Bone 3: "))
+                g3sg1[0]['bone_3'] = bone_3
+                print("[G3SG1] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[G3SG1] Bone 2: "))
+                g3sg1[0]['bone_2'] = bone_2
+                print("[G3SG1] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[G3SG1] Bone 1: "))
+                g3sg1[0]['bone_1'] = bone_1
+                print("[G3SG1] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[G3SG1] Bone 0: "))
+                g3sg1[0]['bone_0'] = bone_0
+                print("[G3SG1] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[G3SG1] Smooth: "))
+                g3sg1[0]['smooth'] = smooth
+                print("[G3SG1] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[G3SG1] Aim Delay: "))
+                g3sg1[0]['aim_delay'] = aim_delay
+                print("[G3SG1] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[G3SG1] Aim Time: "))
+                g3sg1[0]['aim_time'] = aim_time
+                print("[G3SG1] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[G3SG1] Aim Through Walls: "))
+                g3sg1[0]['aim_thru_walls'] = aim_thru_walls
+                print("[G3SG1] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[G3SG1] Trigger Key: "))
+                g3sg1[0]['trigger_key'] = trigger_key
+                print("[G3SG1] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[G3SG1] Trigger Delay: "))
+                g3sg1[0]['trigger_delay'] = trigger_delay
+                print("[G3SG1] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[G3SG1] Trigger Pause: "))
+                g3sg1[0]['trigger_pause'] = trigger_pause
+                print("[G3SG1] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[G3SG1] Trigger After Shot: "))
+                g3sg1[0]['trigger_after_shot'] = trigger_after_shot
+                print("[G3SG1] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[G3SG1] Horizontal RCS: "))
+                g3sg1[0]['horizontal_rcs'] = horizontal_rcs
+                print("[G3SG1] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[G3SG1] Vertical RCS: "))
+                g3sg1[0]['vertical_rcs'] = vertical_rcs
+                print("[G3SG1] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[G3SG1] Invalid Option")
+                time.sleep(2)
+
+    elif weapon_id == 20: #scar20
+        while True:
+            cls()
+            print("[SCAR-20] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[SCAR-20] Aim Key: "))
+                scar20[0]['aim_key'] = aim_key
+                print("[SCAR-20] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[SCAR-20] Aim Rotation: "))
+                scar20[0]['aim_rotation'] = aim_rotation
+                print("[SCAR-20] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[SCAR-20] Sticky Aim: "))
+                scar20[0]['aim_stick'] = aim_stick
+                print("[SCAR-20] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[SCAR-20] Aim FOV: "))
+                scar20[0]['aim_fov'] = aim_fov
+                print("[SCAR-20] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[SCAR-20] Bone Selection: "))
+                scar20[0]['bone_selection'] = bone_selection
+                print("[SCAR-20] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[SCAR-20] Bone 3: "))
+                scar20[0]['bone_3'] = bone_3
+                print("[SCAR-20] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[SCAR-20] Bone 2: "))
+                scar20[0]['bone_2'] = bone_2
+                print("[SCAR-20] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[SCAR-20] Bone 1: "))
+                scar20[0]['bone_1'] = bone_1
+                print("[SCAR-20] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[SCAR-20] Bone 0: "))
+                scar20[0]['bone_0'] = bone_0
+                print("[SCAR-20] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[SCAR-20] Smooth: "))
+                scar20[0]['smooth'] = smooth
+                print("[SCAR-20] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[SCAR-20] Aim Delay: "))
+                scar20[0]['aim_delay'] = aim_delay
+                print("[SCAR-20] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[SCAR-20] Aim Time: "))
+                scar20[0]['aim_time'] = aim_time
+                print("[SCAR-20] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[SCAR-20] Aim Through Walls: "))
+                scar20[0]['aim_thru_walls'] = aim_thru_walls
+                print("[SCAR-20] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[SCAR-20] Trigger Key: "))
+                scar20[0]['trigger_key'] = trigger_key
+                print("[SCAR-20] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[SCAR-20] Trigger Delay: "))
+                scar20[0]['trigger_delay'] = trigger_delay
+                print("[SCAR-20] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[SCAR-20] Trigger Pause: "))
+                scar20[0]['trigger_pause'] = trigger_pause
+                print("[SCAR-20] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[SCAR-20] Trigger After Shot: "))
+                scar20[0]['trigger_after_shot'] = trigger_after_shot
+                print("[SCAR-20] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[SCAR-20] Horizontal RCS: "))
+                scar20[0]['horizontal_rcs'] = horizontal_rcs
+                print("[SCAR-20] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[SCAR-20] Vertical RCS: "))
+                scar20[0]['vertical_rcs'] = vertical_rcs
+                print("[SCAR-20] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[SCAR-20] Invalid Option")
+                time.sleep(2)
+    
+    elif weapon_id == 21: #ssg08
+        while True:
+            cls()
+            print("[SCAR-20] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[SCAR-20] Aim Key: "))
+                scar20[0]['aim_key'] = aim_key
+                print("[SCAR-20] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[SCAR-20] Aim Rotation: "))
+                scar20[0]['aim_rotation'] = aim_rotation
+                print("[SCAR-20] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[SCAR-20] Sticky Aim: "))
+                scar20[0]['aim_stick'] = aim_stick
+                print("[SCAR-20] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[SCAR-20] Aim FOV: "))
+                scar20[0]['aim_fov'] = aim_fov
+                print("[SCAR-20] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[SCAR-20] Bone Selection: "))
+                scar20[0]['bone_selection'] = bone_selection
+                print("[SCAR-20] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[SCAR-20] Bone 3: "))
+                scar20[0]['bone_3'] = bone_3
+                print("[SCAR-20] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[SCAR-20] Bone 2: "))
+                scar20[0]['bone_2'] = bone_2
+                print("[SCAR-20] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[SCAR-20] Bone 1: "))
+                scar20[0]['bone_1'] = bone_1
+                print("[SCAR-20] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[SCAR-20] Bone 0: "))
+                scar20[0]['bone_0'] = bone_0
+                print("[SCAR-20] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[SCAR-20] Smooth: "))
+                scar20[0]['smooth'] = smooth
+                print("[SCAR-20] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[SCAR-20] Aim Delay: "))
+                scar20[0]['aim_delay'] = aim_delay
+                print("[SCAR-20] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[SCAR-20] Aim Time: "))
+                scar20[0]['aim_time'] = aim_time
+                print("[SCAR-20] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[SCAR-20] Aim Through Walls: "))
+                scar20[0]['aim_thru_walls'] = aim_thru_walls
+                print("[SCAR-20] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[SCAR-20] Trigger Key: "))
+                scar20[0]['trigger_key'] = trigger_key
+                print("[SCAR-20] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[SCAR-20] Trigger Delay: "))
+                scar20[0]['trigger_delay'] = trigger_delay
+                print("[SCAR-20] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[SCAR-20] Trigger Pause: "))
+                scar20[0]['trigger_pause'] = trigger_pause
+                print("[SCAR-20] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[SCAR-20] Trigger After Shot: "))
+                scar20[0]['trigger_after_shot'] = trigger_after_shot
+                print("[SCAR-20] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[SCAR-20] Horizontal RCS: "))
+                scar20[0]['horizontal_rcs'] = horizontal_rcs
+                print("[SCAR-20] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[SCAR-20] Vertical RCS: "))
+                scar20[0]['vertical_rcs'] = vertical_rcs
+                print("[SCAR-20] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[SCAR-20] Invalid Option")
+                time.sleep(2)
