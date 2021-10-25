@@ -874,3 +874,133 @@ while True:
             else:
                 print("[P2000] Invalid Option")
                 time.sleep(2)
+
+    elif weapon_id == 7: #p250
+        while True:
+            cls()
+            print("[P250] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[P250] Aim Key: "))
+                galil[0]['aim_key'] = aim_key
+                print("[P250] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[P250] Aim Rotation: "))
+                galil[0]['aim_rotation'] = aim_rotation
+                print("[P250] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[P250] Sticky Aim: "))
+                galil[0]['aim_stick'] = aim_stick
+                print("[P250] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[P250] Aim FOV: "))
+                galil[0]['aim_fov'] = aim_fov
+                print("[P250] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[P250] Bone Selection: "))
+                galil[0]['bone_selection'] = bone_selection
+                print("[P250] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[P250] Bone 3: "))
+                galil[0]['bone_3'] = bone_3
+                print("[P250] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[P250] Bone 2: "))
+                galil[0]['bone_2'] = bone_2
+                print("[P250] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[P250] Bone 1: "))
+                galil[0]['bone_1'] = bone_1
+                print("[P250] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[P250] Bone 0: "))
+                galil[0]['bone_0'] = bone_0
+                print("[P250] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[P250] Smooth: "))
+                galil[0]['smooth'] = smooth
+                print("[P250] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[P250] Aim Delay: "))
+                galil[0]['aim_delay'] = aim_delay
+                print("[P250] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[P250] Aim Time: "))
+                galil[0]['aim_time'] = aim_time
+                print("[P250] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[P250] Aim Through Walls: "))
+                galil[0]['aim_thru_walls'] = aim_thru_walls
+                print("[P250] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[P250] Trigger Key: "))
+                galil[0]['trigger_key'] = trigger_key
+                print("[P250] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[P250] Trigger Delay: "))
+                galil[0]['trigger_delay'] = trigger_delay
+                print("[P250] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[P250] Trigger Pause: "))
+                galil[0]['trigger_pause'] = trigger_pause
+                print("[P250] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[P250] Trigger After Shot: "))
+                galil[0]['trigger_after_shot'] = trigger_after_shot
+                print("[P250] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[P250] Horizontal RCS: "))
+                galil[0]['horizontal_rcs'] = horizontal_rcs
+                print("[P250] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[P250] Vertical RCS: "))
+                galil[0]['vertical_rcs'] = vertical_rcs
+                print("[P250] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[P250] Invalid Option")
+                time.sleep(2)
