@@ -2698,129 +2698,389 @@ while True:
     elif weapon_id == 21: #ssg08
         while True:
             cls()
-            print("[SCAR-20] Options")
+            print("[SSG-08] Options")
             print(Options)
             option_select = int(input("Option: "))
             if option_select == 1:
-                aim_key = int(input("[SCAR-20] Aim Key: "))
-                scar20[0]['aim_key'] = aim_key
-                print("[SCAR-20] Aim Key set to: " + str(aim_key))
+                aim_key = int(input("[SSG-08] Aim Key: "))
+                ssg08[0]['aim_key'] = aim_key
+                print("[SSG-08] Aim Key set to: " + str(aim_key))
                 time.sleep(2)
             elif option_select == 2:
-                aim_rotation = int(input("[SCAR-20] Aim Rotation: "))
-                scar20[0]['aim_rotation'] = aim_rotation
-                print("[SCAR-20] Aim Rotation set to: " + str(aim_rotation))
+                aim_rotation = int(input("[SSG-08] Aim Rotation: "))
+                ssg08[0]['aim_rotation'] = aim_rotation
+                print("[SSG-08] Aim Rotation set to: " + str(aim_rotation))
                 time.sleep(2)
 
             elif option_select == 3:
-                aim_stick = int(input("[SCAR-20] Sticky Aim: "))
-                scar20[0]['aim_stick'] = aim_stick
-                print("[SCAR-20] Sticky Aim set to: " + str(aim_stick))
+                aim_stick = int(input("[SSG-08] Sticky Aim: "))
+                ssg08[0]['aim_stick'] = aim_stick
+                print("[SSG-08] Sticky Aim set to: " + str(aim_stick))
                 time.sleep(2)
 
             elif option_select == 4:
                 print("unknown value, not changing")
 
             elif option_select == 5:
-                aim_fov = float(input("[SCAR-20] Aim FOV: "))
-                scar20[0]['aim_fov'] = aim_fov
-                print("[SCAR-20] Aim FOV set to: " + str(aim_fov))
+                aim_fov = float(input("[SSG-08] Aim FOV: "))
+                ssg08[0]['aim_fov'] = aim_fov
+                print("[SSG-08] Aim FOV set to: " + str(aim_fov))
                 time.sleep(2)
             
             elif option_select == 6:
-                bone_selection = int(input("[SCAR-20] Bone Selection: "))
-                scar20[0]['bone_selection'] = bone_selection
-                print("[SCAR-20] Bone Selection set to: " + str(bone_selection))
+                bone_selection = int(input("[SSG-08] Bone Selection: "))
+                ssg08[0]['bone_selection'] = bone_selection
+                print("[SSG-08] Bone Selection set to: " + str(bone_selection))
                 time.sleep(2)
             
             elif option_select == 7:
-                bone_3 = int(input("[SCAR-20] Bone 3: "))
-                scar20[0]['bone_3'] = bone_3
-                print("[SCAR-20] Bone 3 set to: " + str(bone_3))
+                bone_3 = int(input("[SSG-08] Bone 3: "))
+                ssg08[0]['bone_3'] = bone_3
+                print("[SSG-08] Bone 3 set to: " + str(bone_3))
                 time.sleep(2)
             
             elif option_select == 8:
-                bone_2 = int(input("[SCAR-20] Bone 2: "))
-                scar20[0]['bone_2'] = bone_2
-                print("[SCAR-20] Bone 2 set to: " + str(bone_2))
+                bone_2 = int(input("[SSG-08] Bone 2: "))
+                ssg08[0]['bone_2'] = bone_2
+                print("[SSG-08] Bone 2 set to: " + str(bone_2))
                 time.sleep(2)
             
             elif option_select == 9:
-                bone_1 = int(input("[SCAR-20] Bone 1: "))
-                scar20[0]['bone_1'] = bone_1
-                print("[SCAR-20] Bone 1 set to: " + str(bone_1))
+                bone_1 = int(input("[SSG-08] Bone 1: "))
+                ssg08[0]['bone_1'] = bone_1
+                print("[SSG-08] Bone 1 set to: " + str(bone_1))
                 time.sleep(2)
             
             elif option_select == 10:
-                bone_0 = int(input("[SCAR-20] Bone 0: "))
-                scar20[0]['bone_0'] = bone_0
-                print("[SCAR-20] Bone 0 set to: " + str(bone_0))
+                bone_0 = int(input("[SSG-08] Bone 0: "))
+                ssg08[0]['bone_0'] = bone_0
+                print("[SSG-08] Bone 0 set to: " + str(bone_0))
                 time.sleep(2)
             
             elif option_select == 11:
-                smooth = float(input("[SCAR-20] Smooth: "))
-                scar20[0]['smooth'] = smooth
-                print("[SCAR-20] Smooth set to: " + str(smooth))
+                smooth = float(input("[SSG-08] Smooth: "))
+                ssg08[0]['smooth'] = smooth
+                print("[SSG-08] Smooth set to: " + str(smooth))
                 time.sleep(2)
             
             elif option_select == 12:
-                aim_delay = int(input("[SCAR-20] Aim Delay: "))
-                scar20[0]['aim_delay'] = aim_delay
-                print("[SCAR-20] Aim Delay set to: " + str(aim_delay))
+                aim_delay = int(input("[SSG-08] Aim Delay: "))
+                ssg08[0]['aim_delay'] = aim_delay
+                print("[SSG-08] Aim Delay set to: " + str(aim_delay))
                 time.sleep(2)
             
             elif option_select == 13:
-                aim_time = int(input("[SCAR-20] Aim Time: "))
-                scar20[0]['aim_time'] = aim_time
-                print("[SCAR-20] Aim Time set to: " + str(aim_time))
+                aim_time = int(input("[SSG-08] Aim Time: "))
+                ssg08[0]['aim_time'] = aim_time
+                print("[SSG-08] Aim Time set to: " + str(aim_time))
                 time.sleep(2)
             
             elif option_select == 14:
-                aim_thru_walls = int(input("[SCAR-20] Aim Through Walls: "))
-                scar20[0]['aim_thru_walls'] = aim_thru_walls
-                print("[SCAR-20] Aim Through Walls set to: " + str(aim_thru_walls))
+                aim_thru_walls = int(input("[SSG-08] Aim Through Walls: "))
+                ssg08[0]['aim_thru_walls'] = aim_thru_walls
+                print("[SSG-08] Aim Through Walls set to: " + str(aim_thru_walls))
                 time.sleep(2)
             
             elif option_select == 15:
-                trigger_key = int(input("[SCAR-20] Trigger Key: "))
-                scar20[0]['trigger_key'] = trigger_key
-                print("[SCAR-20] Trigger Key set to: " + str(trigger_key))
+                trigger_key = int(input("[SSG-08] Trigger Key: "))
+                ssg08[0]['trigger_key'] = trigger_key
+                print("[SSG-08] Trigger Key set to: " + str(trigger_key))
                 time.sleep(2)
             
             elif option_select == 16:
-                trigger_delay = int(input("[SCAR-20] Trigger Delay: "))
-                scar20[0]['trigger_delay'] = trigger_delay
-                print("[SCAR-20] Trigger Delay set to: " + str(trigger_delay))
+                trigger_delay = int(input("[SSG-08] Trigger Delay: "))
+                ssg08[0]['trigger_delay'] = trigger_delay
+                print("[SSG-08] Trigger Delay set to: " + str(trigger_delay))
                 time.sleep(2)
             
             elif option_select == 17:
-                trigger_pause = int(input("[SCAR-20] Trigger Pause: "))
-                scar20[0]['trigger_pause'] = trigger_pause
-                print("[SCAR-20] Trigger Pause set to: " + str(trigger_pause))
+                trigger_pause = int(input("[SSG-08] Trigger Pause: "))
+                ssg08[0]['trigger_pause'] = trigger_pause
+                print("[SSG-08] Trigger Pause set to: " + str(trigger_pause))
                 time.sleep(2)
             
             elif option_select == 18:
-                trigger_after_shot = int(input("[SCAR-20] Trigger After Shot: "))
-                scar20[0]['trigger_after_shot'] = trigger_after_shot
-                print("[SCAR-20] Trigger After Shot set to: " + str(trigger_after_shot))
+                trigger_after_shot = int(input("[SSG-08] Trigger After Shot: "))
+                ssg08[0]['trigger_after_shot'] = trigger_after_shot
+                print("[SSG-08] Trigger After Shot set to: " + str(trigger_after_shot))
                 time.sleep(2)
             
             elif option_select == 19:
-                horizontal_rcs = float(input("[SCAR-20] Horizontal RCS: "))
-                scar20[0]['horizontal_rcs'] = horizontal_rcs
-                print("[SCAR-20] Horizontal RCS set to: " + str(horizontal_rcs))
+                horizontal_rcs = float(input("[SSG-08] Horizontal RCS: "))
+                ssg08[0]['horizontal_rcs'] = horizontal_rcs
+                print("[SSG-08] Horizontal RCS set to: " + str(horizontal_rcs))
                 time.sleep(2)
             
             elif option_select == 20:
 
-                vertical_rcs = float(input("[SCAR-20] Vertical RCS: "))
-                scar20[0]['vertical_rcs'] = vertical_rcs
-                print("[SCAR-20] Vertical RCS set to: " + str(vertical_rcs))
+                vertical_rcs = float(input("[SSG-08] Vertical RCS: "))
+                ssg08[0]['vertical_rcs'] = vertical_rcs
+                print("[SSG-08] Vertical RCS set to: " + str(vertical_rcs))
                 time.sleep(2)
 
             elif option_select == 0:
                 break
         
             else:
-                print("[SCAR-20] Invalid Option")
+                print("[SSG-08] Invalid Option")
+                time.sleep(2)
+    
+    elif weapon_id == 22: #mag7
+        while True:
+            cls()
+            print("[MAG-7] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[MAG-7] Aim Key: "))
+                mag7[0]['aim_key'] = aim_key
+                print("[MAG-7] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[MAG-7] Aim Rotation: "))
+                mag7[0]['aim_rotation'] = aim_rotation
+                print("[MAG-7] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[MAG-7] Sticky Aim: "))
+                mag7[0]['aim_stick'] = aim_stick
+                print("[MAG-7] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[MAG-7] Aim FOV: "))
+                mag7[0]['aim_fov'] = aim_fov
+                print("[MAG-7] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[MAG-7] Bone Selection: "))
+                mag7[0]['bone_selection'] = bone_selection
+                print("[MAG-7] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[MAG-7] Bone 3: "))
+                mag7[0]['bone_3'] = bone_3
+                print("[MAG-7] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[MAG-7] Bone 2: "))
+                mag7[0]['bone_2'] = bone_2
+                print("[MAG-7] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[MAG-7] Bone 1: "))
+                mag7[0]['bone_1'] = bone_1
+                print("[MAG-7] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[MAG-7] Bone 0: "))
+                mag7[0]['bone_0'] = bone_0
+                print("[MAG-7] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[MAG-7] Smooth: "))
+                mag7[0]['smooth'] = smooth
+                print("[MAG-7] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[MAG-7] Aim Delay: "))
+                mag7[0]['aim_delay'] = aim_delay
+                print("[MAG-7] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[MAG-7] Aim Time: "))
+                mag7[0]['aim_time'] = aim_time
+                print("[MAG-7] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[MAG-7] Aim Through Walls: "))
+                mag7[0]['aim_thru_walls'] = aim_thru_walls
+                print("[MAG-7] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[MAG-7] Trigger Key: "))
+                mag7[0]['trigger_key'] = trigger_key
+                print("[MAG-7] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[MAG-7] Trigger Delay: "))
+                mag7[0]['trigger_delay'] = trigger_delay
+                print("[MAG-7] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[MAG-7] Trigger Pause: "))
+                mag7[0]['trigger_pause'] = trigger_pause
+                print("[MAG-7] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[MAG-7] Trigger After Shot: "))
+                mag7[0]['trigger_after_shot'] = trigger_after_shot
+                print("[MAG-7] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[MAG-7] Horizontal RCS: "))
+                mag7[0]['horizontal_rcs'] = horizontal_rcs
+                print("[MAG-7] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[MAG-7] Vertical RCS: "))
+                mag7[0]['vertical_rcs'] = vertical_rcs
+                print("[MAG-7] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[MAG-7] Invalid Option")
+                time.sleep(2)
+    
+    elif weapon_id == 22: #mag7
+        while True:
+            cls()
+            print("[MAG-7] Options")
+            print(Options)
+            option_select = int(input("Option: "))
+            if option_select == 1:
+                aim_key = int(input("[MAG-7] Aim Key: "))
+                mag7[0]['aim_key'] = aim_key
+                print("[MAG-7] Aim Key set to: " + str(aim_key))
+                time.sleep(2)
+            elif option_select == 2:
+                aim_rotation = int(input("[MAG-7] Aim Rotation: "))
+                mag7[0]['aim_rotation'] = aim_rotation
+                print("[MAG-7] Aim Rotation set to: " + str(aim_rotation))
+                time.sleep(2)
+
+            elif option_select == 3:
+                aim_stick = int(input("[MAG-7] Sticky Aim: "))
+                mag7[0]['aim_stick'] = aim_stick
+                print("[MAG-7] Sticky Aim set to: " + str(aim_stick))
+                time.sleep(2)
+
+            elif option_select == 4:
+                print("unknown value, not changing")
+
+            elif option_select == 5:
+                aim_fov = float(input("[MAG-7] Aim FOV: "))
+                mag7[0]['aim_fov'] = aim_fov
+                print("[MAG-7] Aim FOV set to: " + str(aim_fov))
+                time.sleep(2)
+            
+            elif option_select == 6:
+                bone_selection = int(input("[MAG-7] Bone Selection: "))
+                mag7[0]['bone_selection'] = bone_selection
+                print("[MAG-7] Bone Selection set to: " + str(bone_selection))
+                time.sleep(2)
+            
+            elif option_select == 7:
+                bone_3 = int(input("[MAG-7] Bone 3: "))
+                mag7[0]['bone_3'] = bone_3
+                print("[MAG-7] Bone 3 set to: " + str(bone_3))
+                time.sleep(2)
+            
+            elif option_select == 8:
+                bone_2 = int(input("[MAG-7] Bone 2: "))
+                mag7[0]['bone_2'] = bone_2
+                print("[MAG-7] Bone 2 set to: " + str(bone_2))
+                time.sleep(2)
+            
+            elif option_select == 9:
+                bone_1 = int(input("[MAG-7] Bone 1: "))
+                mag7[0]['bone_1'] = bone_1
+                print("[MAG-7] Bone 1 set to: " + str(bone_1))
+                time.sleep(2)
+            
+            elif option_select == 10:
+                bone_0 = int(input("[MAG-7] Bone 0: "))
+                mag7[0]['bone_0'] = bone_0
+                print("[MAG-7] Bone 0 set to: " + str(bone_0))
+                time.sleep(2)
+            
+            elif option_select == 11:
+                smooth = float(input("[MAG-7] Smooth: "))
+                mag7[0]['smooth'] = smooth
+                print("[MAG-7] Smooth set to: " + str(smooth))
+                time.sleep(2)
+            
+            elif option_select == 12:
+                aim_delay = int(input("[MAG-7] Aim Delay: "))
+                mag7[0]['aim_delay'] = aim_delay
+                print("[MAG-7] Aim Delay set to: " + str(aim_delay))
+                time.sleep(2)
+            
+            elif option_select == 13:
+                aim_time = int(input("[MAG-7] Aim Time: "))
+                mag7[0]['aim_time'] = aim_time
+                print("[MAG-7] Aim Time set to: " + str(aim_time))
+                time.sleep(2)
+            
+            elif option_select == 14:
+                aim_thru_walls = int(input("[MAG-7] Aim Through Walls: "))
+                mag7[0]['aim_thru_walls'] = aim_thru_walls
+                print("[MAG-7] Aim Through Walls set to: " + str(aim_thru_walls))
+                time.sleep(2)
+            
+            elif option_select == 15:
+                trigger_key = int(input("[MAG-7] Trigger Key: "))
+                mag7[0]['trigger_key'] = trigger_key
+                print("[MAG-7] Trigger Key set to: " + str(trigger_key))
+                time.sleep(2)
+            
+            elif option_select == 16:
+                trigger_delay = int(input("[MAG-7] Trigger Delay: "))
+                mag7[0]['trigger_delay'] = trigger_delay
+                print("[MAG-7] Trigger Delay set to: " + str(trigger_delay))
+                time.sleep(2)
+            
+            elif option_select == 17:
+                trigger_pause = int(input("[MAG-7] Trigger Pause: "))
+                mag7[0]['trigger_pause'] = trigger_pause
+                print("[MAG-7] Trigger Pause set to: " + str(trigger_pause))
+                time.sleep(2)
+            
+            elif option_select == 18:
+                trigger_after_shot = int(input("[MAG-7] Trigger After Shot: "))
+                mag7[0]['trigger_after_shot'] = trigger_after_shot
+                print("[MAG-7] Trigger After Shot set to: " + str(trigger_after_shot))
+                time.sleep(2)
+            
+            elif option_select == 19:
+                horizontal_rcs = float(input("[MAG-7] Horizontal RCS: "))
+                mag7[0]['horizontal_rcs'] = horizontal_rcs
+                print("[MAG-7] Horizontal RCS set to: " + str(horizontal_rcs))
+                time.sleep(2)
+            
+            elif option_select == 20:
+
+                vertical_rcs = float(input("[MAG-7] Vertical RCS: "))
+                mag7[0]['vertical_rcs'] = vertical_rcs
+                print("[MAG-7] Vertical RCS set to: " + str(vertical_rcs))
+                time.sleep(2)
+
+            elif option_select == 0:
+                break
+        
+            else:
+                print("[MAG-7] Invalid Option")
                 time.sleep(2)
